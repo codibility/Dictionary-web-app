@@ -24,7 +24,10 @@ searchBtn.addEventListener("click", () => {
         console.log(audio);
       });
     })
-    .catch((results.innerHTML = "Couldn't Find word"));
+    .catch((
+    setTimeout(()=>
+   {
+    results.innerHTML = "Couldn't Find word")}, 2000));
 });
 
 function playSound() {
